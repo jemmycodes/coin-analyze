@@ -1,6 +1,6 @@
-# Python Quant
+# Coin Analyze
 
-Python Quant is a Telegram bot that turns cryptocurrency market data into a
+Coin Analyze is a Telegram bot that turns cryptocurrency market data into a
 clear, plain-language analytics report.
 
 A user can send the bot a coin name or ticker, such as `Bitcoin`, `BTC`, or
@@ -145,15 +145,15 @@ The planned modules have these responsibilities:
 Clone and prepare the project:
 
 ```bash
-git clone git@github.com:jemmycodes/python-quant.git
-cd python-quant
+git clone git@github.com:jemmycodes/coin-analyze.git
+cd coin-analyze
 uv sync
 ```
 
 Verify that the package imports from the project environment:
 
 ```bash
-uv run python -c "import python_quant; print(python_quant.__file__)"
+uv run python -c "import coin_analyze; print(coin_analyze.__file__)"
 ```
 
 Run the test suite once real analytics tests are added:
